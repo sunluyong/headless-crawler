@@ -2,6 +2,10 @@ screenshots/*.png
 screenshots/*.jpg
 screenshots/*.jepg
 
+mm/*.png
+mm/*.jpg
+mm/*.gif
+
 # Logs
 logs
 *.log
