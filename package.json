@@ -4,7 +4,7 @@
   "description": "chrome headless crawler",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "rm -rf mn/*.jpg"
   },
   "repository": {
     "type": "git",
