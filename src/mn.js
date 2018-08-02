@@ -28,11 +28,17 @@ const srcToImg = require('./helper/srcToImg');
     });
     console.log(`get ${srcs.length} images, start download`);
 
-    srcs.forEach(async (src) => {
+    // srcs.forEach(async (src) => {
+      // sleep
+      // await page.waitFor(200);
+      // await srcToImg(src, mn);
+    // });
+    
+    for(let i = 0; i < srcs.length; i++){
       // sleep
       await page.waitFor(200);
-      await srcToImg(src, mn);
-    });
+      await srcToImg(srcs[i], mn);
+    }
 
     await browser.close();
 
